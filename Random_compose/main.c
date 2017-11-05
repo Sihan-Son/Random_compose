@@ -22,11 +22,12 @@ void main() {
 	char sheetTempo[10];
 
 
-	
-		int tempo;
-		tempo = rand() % 6 + 1;
 
-		switch (tempo) {
+	int tempo;
+	tempo = rand() % 6 + 1;
+
+	switch (tempo) 
+	{
 		case 1:
 		{
 			sprintf(sheetTempo, "%s", "2 / 4");
@@ -58,8 +59,8 @@ void main() {
 			break;
 		}
 	}
-	
-	
+
+
 
 
 	printf("\t♭ 8분 쉼표, ♬ 16분 음표\n");
